@@ -2,7 +2,7 @@
 
 echo Deteniendo los contenedores y borrando imagenes creadas previamente...
 
-docker-compose down --rmi local
+docker-compose down --rmi local --volumes
 
 echo Iniciando la aplicacion...
 
