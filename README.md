@@ -18,11 +18,17 @@ Este proyecto tiene como finalidad administrar los usuarios de una base de datos
 
 ## Dockerización de la aplicación
 
-Se deben ejecutar los siguientes comandos para dockerizar la app basandose en las configuraciones del docker-compose:
+Se deben ejecutar los siguientes comandos para dockerizar la app en la raíz del proyecto, basandose en las configuraciones del docker-compose:
+
+### Linux y MacOS
 
 ```bash
-docker-compose down --rmi local
-docker-compose up
+chmod +x startup.sh; ./startup.sh
+```
+
+### Windows
+```cmd
+./startup.bat
 ```
 
 > [!WARNING]
