@@ -33,7 +33,7 @@ chmod +x startup.sh; ./startup.sh
 
 ### Alternativa
 ```bash
-docker compose down --rmi local
+docker compose down --rmi local --volumes
 docker-compose up
 ```
 
