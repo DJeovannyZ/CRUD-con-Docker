@@ -21,8 +21,8 @@ Este proyecto tiene como finalidad administrar los usuarios de una base de datos
 Se deben ejecutar los siguientes comandos para crear una nueva imagen basandose en las configuraciones del docker-compose:
 
 ```bash
-docker compose down
-docker compose build
-docker compose up
+docker-compose down
+docker-compose build
+docker-compose up
 ```
 
