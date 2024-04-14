@@ -13,3 +13,11 @@ Este proyecto tiene como finalidad administrar los usuarios de una base de datos
 - Darwin Geovanny Zaldaña Ávila (ZA20003)
 
 ## Consideraciones iniciales
+a
+a
+a
+a
+a
+a
+a
+
