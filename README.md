@@ -8,7 +8,7 @@ Este proyecto tiene como finalidad administrar los usuarios de una base de datos
 
 > Tabla de Contenido
 > - [Integrantes](#integrantes)
-> - [Consideraciones iniciales](#creación-de-la-imagen)
+> - [Decokerización de la aplicación](#dockerización-de-la-aplicación)
 
 ## Integrantes
 
@@ -16,12 +16,12 @@ Este proyecto tiene como finalidad administrar los usuarios de una base de datos
 - Cristian Armando Navarro Aguilar (NA21005)
 - Darwin Geovanny Zaldaña Ávila (ZA20003)
 
-## Creación de la imagen
+## Dockerización de la aplicación
 
-Se deben ejecutar los siguientes comandos para crear una nueva imagen basandose en las configuraciones del docker-compose:
+Se deben ejecutar los siguientes comandos para dockerizar la app basandose en las configuraciones del docker-compose:
 
 ```bash
-docker-compose down --rmi all
+docker-compose down --rmi local
 docker-compose up
 ```
 
