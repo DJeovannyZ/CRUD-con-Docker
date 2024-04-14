@@ -31,5 +31,11 @@ chmod +x startup.sh; ./startup.sh
 ./startup.bat
 ```
 
+### Alternativa
+```bash
+docker compose down --rmi local
+docker-compose up
+```
+
 > [!WARNING]
 > _Para la correcta ejecución de la aplicación de CRUD se agregó un tiempo de espera. Este se utiliza para evitar que ocurra un error al establecer la conexión entre el contenedor de la aplicación y el de la base de datos, por ello se espera hasta que la base de datos de MariaDB este creada y ejecutandose. El tiempo definido en segundo puede modificarse de acuerdo a las necesidades del equipo._
